@@ -1,0 +1,53 @@
+.chart{
+  border: thin grey solid;
+  height: 90vh;
+  width: 100vw;
+}
+
+.grid line {
+  stroke: #ddd;
+}
+.dot{
+    fill: black;
+    transition: all ease 0.5s;
+    opacity: 0;
+    z-index: 0;
+
+}
+.toggle-seasonal{
+    transition: all ease 1s;
+    cursor: pointer;
+    fill: red;
+}
+
+
+.dot:hover{
+	fill:tomato;
+}
+
+.tooltip1{
+    /*opacity: 0;*/
+}
+
+.tooltip1-text{	
+    fill: black;         
+    font: 10px sans-serif;
+    z-index: 100;   
+}
+.tooltip2-text{       
+    fill: black;         
+    font: 10px sans-serif;
+    z-index: 100;     
+
+
+
+}
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
